@@ -1,0 +1,38 @@
+# =========================================================
+# RAG Pipeline Project — COMP 741
+# Full dependency list (all stages combined)
+# =========================================================
+
+# ── Core data handling ─────────────────────────────────────
+pandas
+numpy
+
+# ── Stage 1: visualization (optional) ──────────────────────
+matplotlib
+
+# ── Stage 2: ingestion & chunking ──────────────────────────
+feedparser
+requests
+tqdm
+
+# ── Stage 3–4: embeddings & similarity ─────────────────────
+sentence-transformers
+scikit-learn
+
+# ── Stage 5: LLM (Hugging Face) ────────────────────────────
+transformers
+torch
+accelerate
+
+# ── Stage 6: vector database ───────────────────────────────
+chromadb
+
+# ── Stage 7–8: evaluation & analysis ───────────────────────
+seaborn
+
+# ── UI (Streamlit extension) ───────────────────────────────
+streamlit
+
+# ── Jupyter environment ────────────────────────────────────
+ipykernel
+jupyter
